@@ -1,0 +1,16 @@
+.send_message {
+    padding: 8px 33px;
+    background: var(--btn-green);
+    border-radius: 50px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    margin-right: 10px;
+    letter-spacing: .2rem;
+    box-shadow: 0 4px 2px -2px var(--white);
+  }
+  .send_message:hover {
+    background: var(--primary-dark);
+    color: var(--btn-green);
+    font-size: 20px;
+  }

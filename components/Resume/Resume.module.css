@@ -1,0 +1,14 @@
+.card {
+    background: var(--input-bg) !important;
+}
+.title {
+    color: var(--btn-green);
+}
+.description {
+    font-weight: lighter !important;
+    /* letter-spacing: 2px; */
+    line-height: 1.7;
+}
+/* .institution {
+    color: rgba(255,255,255,.4);
+} */

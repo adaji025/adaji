@@ -1,0 +1,13 @@
+.Social {
+    background: var(--primary-dark);
+    height: 20vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.icons {
+    color: var(--btn-green);
+    cursor: pointer;
+    border-radius: 40%;
+    background: var(--input-bg);
+}

@@ -1,0 +1,40 @@
+
+.buttonContainer {
+    position: relative;
+  width: 350px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--input-bg);
+}
+.cheveron {
+  width: 50px;
+  height: 50px;
+  color: white;
+  margin: 10px;
+  border-radius: 50%;
+  border: 1px solid var(--btn-green);
+}
+.cheveron:hover {
+  border: 3px solid aqua;
+}
+.sliderContainer {
+    width: 100vw;
+    overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  .buttonContainer {
+    display: none !important;
+    position: relative;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--input-bg);
+}
+}

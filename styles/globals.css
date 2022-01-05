@@ -1,0 +1,142 @@
+:root {
+  --white: #fff;
+  --primary-dark: #222;
+  --dark-green: #2c3e50;
+  --btn-green: #bac964;
+  --btn-grey: #6c757d;
+  --btn-grey-hover: #5a6268;
+  --bg-overlay: rgba(0, 0, 0, 0.5);
+  --input-bg: #333;
+  --typical-color: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gt-medium {
+  font-family: 'GT Walsheim Pro';
+  font-weight: medium;
+}
+.gt-bold {
+  font-family: 'GT Walsheim Pro';
+  font-weight: bold;
+}
+.condensedbold {
+  font-family: 'GT Walsheim Pro', serif;
+  font-weight: bold;
+}
+.gt-regular {
+  font-family: 'GT Walsheim Pro';
+  font-weight: 400;
+}
+.typical-color {
+  color: var(--typical-color);
+}
+.input-bg {
+  background: var(--input-bg) !important;
+}
+.dark-green {
+  color: var(--dark-green);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'GT Walsheim Pro';
+  font-weight: medium;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* custom Navbar styles */
+.nav_menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: center;
+  margin-right: 2rem;
+  margin-bottom: 0;
+}
+/* custome Navbar styles end */
+
+/* spining of hero Image */
+.spin {
+  animation: spin 8s 1 linear;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(359deg);}
+}
+.spin-2 {
+  animation: spin 8s infinite linear;
+}
+@keyframes spin-2 {
+  from {transform:rotate(350deg);}
+  to {transform:rotate(0deg);}
+}
+.dark-vertL {
+  width: 3vw;
+  height: 5px;
+  background: #222;
+}
+.green-vertL {
+  width: 3vw;
+  height: 5px;
+  background: var(--btn-green);
+}
+
+/* .card-wrapper.active, .card-wrapper:hover, .card-wrapper:focus {
+
+} */
+.sm-d-text {
+  font-size: 10px;
+}
+.Footer {
+  color: var(--typical-color) !important;
+}
+.Footer a {
+  text-decoration: none;
+  color: inherit ;
+}
+@media (max-width: 960px) {
+  .navItems {
+      position: relative;
+  }
+  .nav_menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 350px;
+      position: absolute;
+      left: -100%;
+      top: 80px;
+      transition: all .5s ease;
+      padding-left: 0;
+  }
+  .nav_menu.active {
+      background: var(--primary-dark);
+      left: 0;
+      transition: all .5s ease;
+      z-index: 1;
+  }
+}
+@media (max-width: 576px) {
+  .dark-vertL {
+    width: 10vw;
+  }
+}
