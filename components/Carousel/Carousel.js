@@ -77,9 +77,11 @@ export default function Carousel() {
                   <div className={`text-white ${styles.details}`}>
                     <div className="d-flex justify-content-between align-items-center py-2">
                       <h5>{item.title}</h5>
-                        <a href={item.url} className="btn btn-outline-light">
+                      <div className="btn btn-outline-light">
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">
                           View Site
                         </a>
+                      </div>                        
                     </div>
 
                     <span>{item.decription}</span>

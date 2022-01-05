@@ -7,8 +7,9 @@ import styles from "./Skills.module.css";
 
 export default function Skills() {
   return (
-    <div className={`${styles.Skills}`}>
-        <div className="container pb-0 pt-3">
+    <div className={`my-auto ${styles.Skills}`}>
+      <div>
+        <div className="container pb-0 mt-5">
             <h1 className="condensedbold text-muted">Skills</h1>
             <div className="green-vertL pt-0 mb-5"></div>
         </div>
@@ -44,11 +45,11 @@ export default function Skills() {
               <SkillCard logo={<SiNextdotjs className="spin-2"/>} title="Nextjs" />
             </div>
           </div>
-          <div className="col-6 col-md-4 col-lg-3">
+          {/* <div className="col-6 col-md-4 col-lg-3">
             <div className="container text-center p-2 ">
               <SkillCard logo={<DiBootstrap className="spin-2"/>} title="Bootstrap" />
             </div>
-          </div>
+          </div> */}
           <div className="col-6 col-md-4 col-lg-3">
             <div className="container text-center p-2 ">
               <SkillCard logo={<SiTailwindcss className="spin-2"/>} title="Tailwind css" />
@@ -71,6 +72,8 @@ export default function Skills() {
           </div>
         </div>
       </div>
+      </div>
+        
     </div>
   );
 }

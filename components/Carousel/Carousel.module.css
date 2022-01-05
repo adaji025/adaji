@@ -30,7 +30,13 @@
     opacity: .4;
     transition: .5s;
 }
-
+.cardWrapper a {
+    text-decoration: none !important;
+    color: var(--btn-green);
+}
+.cardWrapper a:hover {
+    color: var(--dark-green);
+}
 
 
 

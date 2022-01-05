@@ -7,6 +7,7 @@ import Navbar from "../components/Header/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Resume from "../components/Resume/Resume";
+import Services from "../components/Services/Services";
 import Skills from "../components/Skills/Skills";
 import Social from "../components/Social/Social";
 import styles from "../styles/Home.module.css";
@@ -26,6 +27,9 @@ export default function Home() {
 
       <section id="skills">
         <Skills />
+      </section>
+      <section id="services">
+        <Services />
       </section>
 
       <section id="portfolio">

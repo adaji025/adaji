@@ -40,7 +40,16 @@
 .dark-green {
   color: var(--dark-green);
 }
-
+.bg-btn-green {
+  background: var(--btn-green) !important;
+}
+.serv {
+  width: 100px !important;
+  height: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 html,
 body {
   padding: 0;
@@ -138,5 +147,10 @@ a {
 @media (max-width: 576px) {
   .dark-vertL {
     width: 10vw;
+  }
+  .green-vertL {
+    width: 10vw;
+    height: 5px;
+    background: var(--btn-green);
   }
 }

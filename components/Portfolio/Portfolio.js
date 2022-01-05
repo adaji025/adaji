@@ -12,8 +12,9 @@ import Carousel from "../Carousel/Carousel";
 
 export default function Portfolio() {
   return (
-    <div>
-      <div className="container pt-3">
+    <div className={styles.Portfolio}>
+      <div>
+        <div className="container mt-5 pt-5">
         <h1 className="condensedbold text-white">
           <span className="fw-lighter">Featured</span> Portfolio
         </h1>
@@ -66,5 +67,7 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
+      </div>
+      
   );
 }
