@@ -5,7 +5,7 @@ import styles from './Resume.module.css'
 
 export default function Resume() {
     return (
-        <div>
+        <div className={styles.Resume}>
             <div className="container text-center pb-2">
                 <h1 className='text-white pt-5'><span className='fw-lighter'>My </span> Resume</h1>
                 <div className="green-vertL mx-auto"></div>

@@ -20,13 +20,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Hero />
-      <Social />
-      <Skills />
-      <Portfolio />
-      <About />
-      <Resume />
-      <Contact />
+      <section id="home">
+        <Hero />
+        <Social />
+      </section>
+
+      <section id="skills">
+        <Skills />
+      </section>
+
+      <section id="portfolio">
+        <Portfolio />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="resume">
+        <Resume />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+
       <Footer />
     </div>
   );

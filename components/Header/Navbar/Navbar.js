@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { FaTimes, FaList } from "react-icons/fa";
 import { MenuItems } from "../MenuItems";
@@ -39,9 +40,12 @@ export default function Navbar() {
                     MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
+                              <Link href={item.url}>
                                 <a href={item.url} className={`gt-regular ${styles.nav_links}`}>
                                     {item.title}
                                 </a>
+                              </Link>
+                                
                             </li>
                         )
                     })
