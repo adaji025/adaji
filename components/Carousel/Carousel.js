@@ -3,6 +3,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import styles from "./Carousel.module.css";
 import { data } from "../../Libs/CarouselData";
 import Link from "next/link";
@@ -47,7 +49,7 @@ export default function Carousel() {
               <div className={`card-wrapper ${styles.cardWrapper}`} key={index}>
                 <div className={styles.card}>
                   <div className={styles.cardImage}>
-                    <img loading="lazy" src={item.src} alt={item.alt} className="w-100" />
+                    <LazyLoadImage effect="blur" src={item.src} alt={item.alt} className="w-100" />
                   </div>
                   <div className={`text-white ${styles.details}`}>
                     <div className="d-flex justify-content-between align-items-center py-2">
