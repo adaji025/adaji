@@ -49,13 +49,13 @@ export default function Footer() {
                 <a href="https://facebook.com/mukhtar.adaji.5/" target="_blank" rel="noopener noreferrer" className="d-block pb-2 px-2 px-sm-0">Facebook</a>
               </div>
               <div>
-                <a href="https://www.instagram.com/see_serious/" className="d-block pb-2 px-2 px-sm-0">Instagram</a>
+                <a href="https://www.instagram.com/see_serious/" className="d-block pb-2 px-2 px-sm-0" target="_blank" rel="noopener noreferrer">Instagram</a>
               </div>
               <div>
-                <a href="https://twitter.com/adajimukhtar" className="d-block pb-2 px-2 px-sm-0">Twitter</a>
+                <a href="https://twitter.com/adajimukhtar" className="d-block pb-2 px-2 px-sm-0" target="_blank" rel="noopener noreferrer">Twitter</a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3Blf8TbOBLQN6D4aH8GLdoDQ%3D%3D" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3Blf8TbOBLQN6D4aH8GLdoDQ%3D%3D" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
           </div>
