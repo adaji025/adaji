@@ -13,7 +13,7 @@ export default function About() {
         </div>
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-lg-6 d-flex justify-content-center py-2">
+          <div className="col-lg-6 d-flex justify-content-center py-2 text-center">
             <LazyLoadImage effect="blur" src="./img/pp1.png" alt="" className="w-50" />
           </div>
           <div className="col-lg-6 py-2">
