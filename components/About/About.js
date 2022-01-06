@@ -12,7 +12,7 @@ export default function About() {
       <div className="container py-5">
         <div className="row align-items-center">
           <div className="col-lg-6 d-flex justify-content-center py-2">
-            <img src="./img/pp1.png" alt="" className="w-50" />
+            <img loading="lazy" src="./img/pp1.png" alt="" className="w-50" />
           </div>
           <div className="col-lg-6 py-2">
             <div className="card shadow border-0 px-2 gt-regular opacity-75">

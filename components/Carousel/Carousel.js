@@ -47,7 +47,7 @@ export default function Carousel() {
               <div className={`card-wrapper ${styles.cardWrapper}`} key={index}>
                 <div className={styles.card}>
                   <div className={styles.cardImage}>
-                    <img src={item.src} alt={item.alt} className="w-100" />
+                    <img loading="lazy" src={item.src} alt={item.alt} className="w-100" />
                   </div>
                   <div className={`text-white ${styles.details}`}>
                     <div className="d-flex justify-content-between align-items-center py-2">
@@ -56,7 +56,6 @@ export default function Carousel() {
                           View Site
                         </a>
                     </div>
-
                     <span>{item.decription}</span>
                   </div>
                 </div>
@@ -72,7 +71,7 @@ export default function Carousel() {
               <div className={`card-wrapper ${styles.cardWrapper}`} key={index}>
                 <div className={styles.card}>
                   <div className={styles.cardImage}>
-                    <img src={item.src} alt={item.alt} className="w-100" />
+                    <img loading="lazy" src={item.src} alt={item.alt} className="w-100" />
                   </div>
                   <div className={`text-white ${styles.details}`}>
                     <div className="d-flex justify-content-between align-items-center py-2">
@@ -99,7 +98,7 @@ export default function Carousel() {
               <div className={`card-wrapper ${styles.cardWrapper}`} key={index}>
                 <div className={styles.card}>
                   <div className={styles.cardImage}>
-                    <img src={item.src} alt={item.alt} className="w-100 rounded" />
+                    <img loading="lazy" src={item.src} alt={item.alt} className="w-100 rounded" />
                   </div>
                   <div className={`text-white ${styles.details}`}>
                     <div className="d-block justify-content-between align-items-center py-2">

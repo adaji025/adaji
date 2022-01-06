@@ -1,4 +1,7 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import Typical from "react-typical";
 import styles from "./Hero.module.css";
 
@@ -41,10 +44,11 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center order-1 order-md-2 py-2">
-            <div className={` ${styles.picture}`}>
-              <img
+            <div className={`text-center ${styles.picture}`}>
+              <LazyLoadImage
                 src="./img/adaji.png"
-                alt=""
+                effect="blur"
+                alt="adaji"
                 className="img-fluid w-75 p-2 spin"
               />
             </div>
