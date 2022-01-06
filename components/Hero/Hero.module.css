@@ -40,6 +40,10 @@
   margin-right: 10px;
   box-shadow: 0 4px 2px -2px var(--btn-green);
 }
+.Hero a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 .download_btn:hover {
   color: var(--btn-grey);
   background: #fff;

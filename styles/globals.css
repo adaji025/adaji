@@ -117,10 +117,7 @@ a {
 .Footer {
   color: var(--typical-color) !important;
 }
-a {
-  text-decoration: none !important;
-  color: inherit !important;
-}
+
 @media (max-width: 960px) {
   .navItems {
       position: relative;
