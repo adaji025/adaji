@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="col-md-6 d-flex align-items-center justify-content-center order-2 order-md-1 py-2">
             <div className="text-center text-md-center">
               <h1 className="text-white fw-lighter">
-                hello, I am{" "}
+                Hello, I am{" "}
                 <span className="condensedbold d-block fw-bold py-2">Adaji Mukhtar</span>
               </h1>
               <span className="d-block typical-color gt-medium">Building Applications in Todays Market for Tommorows Customers</span>
@@ -19,7 +19,7 @@ export default function Hero() {
                   steps={[
                     "Web Developer",
                     1000,
-                    "Eduction Resource Person",
+                    "Education Resource Person",
                     1000,
                     "UI Design Rendering",
                     1000,
@@ -35,7 +35,7 @@ export default function Hero() {
               <div className="d-flex justify-content-center pt-2">
                 <button className={`btn ${styles.hire_btn}`}>Hire Me</button>
                 <button className={`btn ${styles.download_btn}`}>
-                  Download CV
+                 <a href="./resume.pdf" download="adaji resume">Download CV</a> 
                 </button>
               </div>
             </div>
